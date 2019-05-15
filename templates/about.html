@@ -1,0 +1,23 @@
+﻿{% extends "base.html" %}
+{% block content %}
+<div id="main-container" class="container clearfix">
+    <section class="post-left">
+        <div class="breadcrumb">您的位置： <a itemprop="breadcrumb" href="/">首頁</a> » <span class="current">關於我們</span></div>
+            <div class="post-main clearfix">
+            <h1 class="post-title">關於我們</h1>
+            <div class="post-con clearfix">
+                <div class="article-meta"><span class="item">2019-03-28</span></div>
+                <article class="article-content">
+                    <p>1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et.</p>
+                    <p>2. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
+                    <p>3. The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz.</p>
+                    <p>4. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 右側工具欄 -->
+    {% include 'right.html' %}
+</div>
+{% endblock %}
